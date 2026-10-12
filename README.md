@@ -23,12 +23,12 @@ pip install -r requirements.txt
 
 **Windows (PowerShell):**
 ```powershell
-$env:WEATHER_API_KEY = "ваш_ключ"
+$env:WEATHER_API_KEY = "ключ"
 ```
 
 **Linux/macOS:**
 ```bash
-export WEATHER_API_KEY="ваш_ключ"
+export WEATHER_API_KEY="ключ"
 ```
 
 Ключ можно получить бесплатно на https://home.openweathermap.org/api_keys
@@ -82,5 +82,5 @@ city_summary/
 
 ## Внешние API
 
-- **Погода:** OpenWeatherMap
+- **Погода:** [OpenWeatherMap](https://openweathermap.org/)
 - **Курсы валют:** [Frankfurter](https://frankfurter.dev/)
